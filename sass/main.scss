@@ -17,8 +17,6 @@
 @import "./layout/contact";
 @import "./layout/customers";
 @import "./layout/footer";
-@import "./layout/form-modal-window";
-@import "./layout/form-newsletter";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/loremipsum";
@@ -27,8 +25,11 @@
 @import "./layout/services";
 @import "./layout/team";
 
+@import "./components/backdrop";
 @import "./components/button-bar";
 @import "./components/button";
 @import "./components/footer-social-media";
 @import "./components/logo";
+@import "./components/modal-window";
+@import "./components/newsletter";
 @import "./components/social-list";

@@ -1,0 +1,95 @@
+.customers-section .container {
+    display: flex;
+}
+
+
+.customers-header {
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.customers-list {
+    display: flex;
+}
+
+.customers-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--social-media-color);
+    border-radius: 4px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-color;
+}
+
+.customers-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.customers-list-link {
+    display: flex;
+    fill: var(--social-media-color);
+}
+
+.customers-icon-1 {
+    width: 41px;
+    height: 47px;
+}
+
+.customers-icon-2 {
+    width: 40px;
+    height: 52px;
+}
+
+.customers-icon-3 {
+    width: 43px;
+    height: 41px;
+}
+
+.customers-icon-4 {
+    width: 84px;
+    height: 41px;
+}
+
+.customers-icon-5 {
+    width: 63px;
+    height: 45px;
+}
+
+.customers-icon-6 {
+    width: 94px;
+    height: 44px;
+}
+
+.customers-list-item:hover,
+.customers-list-item:focus {
+    border: 1px solid var(--webstudio-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-color;
+}
+
+.customers-list-ite svg,
+.customers-list-item svg {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, fill;
+}
+
+.customers-list-item:hover svg,
+.customers-list-item:focus svg {
+    color: var(--webstudio-color);
+    fill: var(--webstudio-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, fill;
+}

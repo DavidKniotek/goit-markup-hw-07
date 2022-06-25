@@ -1,0 +1,48 @@
+.loremipsum .container {
+    display: flex;
+    font-size: 14px;
+}
+
+.loremipsum-list {
+    display: flex;
+}
+
+.loremipsum-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.lorem-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.lorem-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--contact-color)
+}
+
+.loremipsum-icon-item {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    padding: 25px 0;
+    margin-bottom: 30px;
+    background-color: var(--loremipsum-icon-color);
+}
+
+.loremipsum-icon {
+    width: 70px;
+    height: 70px;
+}

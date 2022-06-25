@@ -1,0 +1,34 @@
+.navigation {
+    display: flex;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation-item {
+    position: relative;
+}
+
+.main-navigation-item:not(:last-child) {
+    margin-right: 46px;
+}
+
+.main-menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.active::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--webstudio-color);
+    border-radius: 2px;
+    bottom: -32px;
+}

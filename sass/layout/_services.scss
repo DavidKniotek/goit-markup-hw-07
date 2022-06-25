@@ -1,0 +1,55 @@
+.services-list {
+    display: flex;
+}
+
+.services-head {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.75;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.services .container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 94px;
+
+}
+
+.service-item {
+    position: relative;
+}
+
+.service-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.services-banner {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

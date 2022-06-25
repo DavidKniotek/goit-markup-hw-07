@@ -7,6 +7,13 @@
     --loremipsum-icon-color: #F5F4FA;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 h1,
 h2,
 h3,
@@ -21,7 +28,6 @@ ol {
     margin: 0;
     padding: 0;
 }
-
 
 
 p {

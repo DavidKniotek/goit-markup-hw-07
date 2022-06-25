@@ -27,6 +27,13 @@
   --loremipsum-icon-color: #F5F4FA;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 h1,
 h2,
 h3,
@@ -73,4 +80,23 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
   color: var(--text-color);
+}
+
+.main-logo {
+  padding-right: 93px;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.main-logo-pt1 {
+  color: var(--webstudio-color);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.main-logo-pt2 {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 26px;
 }/*# sourceMappingURL=main.css.map */

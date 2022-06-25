@@ -15,15 +15,9 @@
 @import "./base/section";
 
 @import "./layout/contact";
-@import "./layout/customers";
 @import "./layout/footer";
 @import "./layout/header";
-@import "./layout/hero";
-@import "./layout/loremipsum";
 @import "./layout/navigation";
-@import "./layout/pic-box";
-@import "./layout/services";
-@import "./layout/team";
 
 @import "./components/backdrop";
 @import "./components/button-bar";
@@ -33,3 +27,10 @@
 @import "./components/modal-window";
 @import "./components/newsletter";
 @import "./components/social-list";
+
+@import "./pages/index/customers";
+@import "./pages/index/hero";
+@import "./pages/index/loremipsum";
+@import "./pages/index/services";
+@import "./pages/index/team";
+@import "./pages/portfolio/pic-box";

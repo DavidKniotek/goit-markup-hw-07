@@ -9,10 +9,10 @@
 
 .main-navigation-item {
     position: relative;
-}
 
-.main-navigation-item:not(:last-child) {
-    margin-right: 46px;
+    &:not(:last-child) {
+        margin-right: 46px;
+    }
 }
 
 .main-menu {
@@ -22,13 +22,16 @@
     letter-spacing: 0.02em;
 }
 
-.active::after {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: var(--webstudio-color);
-    border-radius: 2px;
-    bottom: -32px;
+.active {
+
+    &::after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: var(--webstudio-color);
+        border-radius: 2px;
+        bottom: -32px;
+    }
 }

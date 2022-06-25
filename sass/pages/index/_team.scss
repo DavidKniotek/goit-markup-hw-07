@@ -19,10 +19,10 @@
 
 .team-list-item {
     text-align: center;
-}
 
-.team-list-item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .team-member-photo {

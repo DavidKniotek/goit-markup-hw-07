@@ -16,12 +16,16 @@
     justify-content: space-between
 }
 
-.footer-social-media-item:not(:last-child) {
-    margin-right: 10px;
+.footer-social-media-item {
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
-.footer-social-media-item:last-child {
-    margin-right: 78px;
+.footer-social-media-item {
+    &:last-child {
+        margin-right: 78px;
+    }
 }
 
 .footer-social-media-link {

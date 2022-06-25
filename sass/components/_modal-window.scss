@@ -126,19 +126,22 @@ input {
     transition-property: fill;
 }
 
-.before-checkbox::before {
-    display: inline-block;
-    content: "";
-    width: 16px;
-    height: 15px;
-    border: 2px solid #212121;
-    border-radius: 2px;
-    margin-left: 14px;
-    margin-right: 4px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: border;
-    cursor: pointer;
+.before-checkbox {
+
+    &::before {
+        display: inline-block;
+        content: "";
+        width: 16px;
+        height: 15px;
+        border: 2px solid #212121;
+        border-radius: 2px;
+        margin-left: 14px;
+        margin-right: 4px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: border;
+        cursor: pointer;
+    }
 }
 
 .last-label-checkbox:checked+.before-checkbox::before {
@@ -166,11 +169,14 @@ input {
     margin-right: 14px;
 }
 
-label:focus-within svg {
-    fill: var(--webstudio-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill;
+label {
+
+    &:focus-within svg {
+        fill: var(--webstudio-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
+    }
 }
 
 .mw-button {

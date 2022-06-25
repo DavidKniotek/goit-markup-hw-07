@@ -25,6 +25,10 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border-color;
 
+    &:not(:last-child) {
+        margin-right: 30px;
+        }
+
     &:hover,
     &:focus {
         border: 1px solid var(--webstudio-color);
@@ -48,10 +52,6 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color, fill;
-}
-
-.customers-list-item:not(:last-child) {
-    margin-right: 30px;
 }
 
 .customers-list-link {

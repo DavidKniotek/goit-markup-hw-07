@@ -8,10 +8,10 @@
 .contact-top {
     display: flex;
     margin-left: auto;
-}
 
-.contact-top:not(:last-child) {
-    margin-right: 46px;
+    &:not(:last-child) {
+        margin-right: 46px;
+    }
 }
 
 .envelope-icon {

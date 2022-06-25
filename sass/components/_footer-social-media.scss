@@ -36,14 +36,14 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color;
-}
 
-.footer-social-media-link:hover,
-.footer-social-media-link:focus {
-    background-color: var(--webstudio-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: background-color;
+        &:hover,
+        &:focus {
+            background-color: var(--webstudio-color);
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: background-color;
+        }
 }
 
 .footer-social-icon {

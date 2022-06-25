@@ -65,12 +65,15 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 }
-
-.link-menu {
-  color: var(--text-color);
+.link:hover, .link:focus {
+  color: var(--webstudio-color);
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
-.link-active {
+.link::selection {
   color: var(--webstudio-color);
 }
 
@@ -78,13 +81,12 @@ img {
   color: var(--webstudio-color);
 }
 
-.link:hover,
-.link:focus {
+.link-menu {
+  color: var(--text-color);
+}
+
+.link-active {
   color: var(--webstudio-color);
-  cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
 }
 
 .list {
@@ -285,7 +287,6 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, filter, background-color;
 }
-
 .button-style:hover {
   background-color: #2196F3;
   color: #FFFFFF;
@@ -320,9 +321,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity;
 }
-
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   opacity: 0.75;
   cursor: pointer;
   transition-duration: 250ms;
@@ -369,9 +368,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
 }
-
-.footer-social-media-link:hover,
-.footer-social-media-link:focus {
+.footer-social-media-link:hover, .footer-social-media-link:focus {
   background-color: var(--webstudio-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -402,6 +399,10 @@ img {
   font-size: 26px;
 }
 
+.main-logo-pt3 {
+  color: #FFFFFF;
+}
+
 .main-logo-end {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -410,10 +411,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
-}
-
-.main-logo-pt3 {
-  color: #FFFFFF;
 }
 
 .modal {
@@ -495,11 +492,6 @@ textarea {
   resize: none;
   outline: none;
 }
-
-input {
-  outline: none;
-}
-
 textarea::placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -508,6 +500,10 @@ textarea::placeholder {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+input {
+  outline: none;
 }
 
 .mw-item-feedback {
@@ -615,7 +611,6 @@ label:focus-within svg {
   background-color: var(--background-color);
   color: rgba(255, 255, 255, 0.6);
 }
-
 .newsletter-form-email::placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -651,9 +646,7 @@ label:focus-within svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity;
 }
-
-.newsletter-button:hover,
-.newsletter-button:focus {
+.newsletter-button:hover, .newsletter-button:focus {
   opacity: 0.75;
   cursor: pointer;
   transition-duration: 250ms;
@@ -693,19 +686,17 @@ label:focus-within svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill, background-color;
 }
-
-.social-icon {
-  width: 20px;
-  height: 20px;
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:hover, .social-list-link:focus {
   fill: #FFFFFF;
   background-color: var(--webstudio-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill, background-color;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .customers-section .container {

@@ -19,18 +19,18 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill, background-color;
-}
 
-.social-icon {
-    width: 20px;
-    height: 20px;
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
+    &:hover,
+    &:focus {
     fill: #FFFFFF;
     background-color: var(--webstudio-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill, background-color;
+    }
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
 }

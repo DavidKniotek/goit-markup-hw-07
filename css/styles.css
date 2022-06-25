@@ -139,31 +139,6 @@
     color: #FFFFFF;
 }
 
-.button {
-    display: flex;
-    align-items: center;
-    align-self: center;
-    justify-content: center;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    background: #2196F3;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    border-radius: 4px;
-    border: none;
-    box-shadow: #2F303A;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: opacity;
-}
-
 /*----------INDEX SEKCJA 2 / LOREMIPSUM----------*/
 
 .loremipsum .container {
@@ -344,43 +319,6 @@
     background: #F5F4FA;
 }
 
-.social-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 32px;
-    margin-left: 32px;
-    padding-bottom: 30px;
-}
-
-.social-list-link {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    fill: var(--social-media-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill, background-color;
-}
-
-.social-icon {
-    width: 20px;
-    height: 20px;
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-    fill: #FFFFFF;
-    background-color: var(--webstudio-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill, background-color;
-}
-
 /*------------INDEX SEKCJA 5 / CUSTOMERS-------*/
 
 .customers-section .container {
@@ -516,66 +454,9 @@
     color: #FFFFFF;
 }
 
-.address-color {
-    color: #FFFFFF;
-}
-
 .contact-bottom {
     display: flex;
     color: var(--contact-color);
-}
-
-.footer-social-media-header {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #fff;
-    padding-top: 12px;
-    margin-bottom: 20px;
-}
-
-.footer-social-media-list {
-    display: flex;
-    justify-content: space-between
-}
-
-.footer-social-media-item:not(:last-child) {
-    margin-right: 10px;
-}
-
-.footer-social-media-item:last-child {
-    margin-right: 78px;
-}
-
-.footer-social-media-link {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    fill: #fff;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: background-color;
-}
-
-.footer-social-media-link:hover,
-.footer-social-media-link:focus {
-    background-color: var(--webstudio-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: background-color;
-}
-
-.footer-social-icon {
-    width: 20px;
-    height: 20px;
 }
 
 .newsletter-label {
@@ -852,19 +733,6 @@
     transition-property: color;
 }
 
-.button:hover,
-.button:focus {
-    opacity: 0.75;
-    cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: opacity;
-}
-
-.address-style {
-    font-style: normal;
-}
-
 /*------------OKNO MODALNE-----------*/
 .backdrop {
     position: fixed;
@@ -1039,15 +907,6 @@ textarea::placeholder {
     letter-spacing: 0.03em;
     color: var(--contact-color);
     margin-right: 14px;
-}
-
-.mw-button {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 30px;
 }
 
 .mw-item-box:focus-within {

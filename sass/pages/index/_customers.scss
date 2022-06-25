@@ -29,6 +29,30 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border-color;
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--webstudio-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: border-color;
+    }
+}
+
+.customers-list-item svg,
+.customers-list-item svg {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, fill;
+}
+
+.customers-list-item:hover svg,
+.customers-list-item:focus svg {
+    color: var(--webstudio-color);
+    fill: var(--webstudio-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, fill;
 }
 
 .customers-list-item:not(:last-child) {
@@ -68,28 +92,4 @@
 .customers-icon-6 {
     width: 94px;
     height: 44px;
-}
-
-.customers-list-item:hover,
-.customers-list-item:focus {
-    border: 1px solid var(--webstudio-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: border-color;
-}
-
-.customers-list-ite svg,
-.customers-list-item svg {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color, fill;
-}
-
-.customers-list-item:hover svg,
-.customers-list-item:focus svg {
-    color: var(--webstudio-color);
-    fill: var(--webstudio-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color, fill;
 }

@@ -730,6 +730,28 @@ label:focus-within svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color;
 }
+.customers-list-item:hover, .customers-list-item:focus {
+  border: 1px solid var(--webstudio-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+
+.customers-list-item svg,
+.customers-list-item svg {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+
+.customers-list-item:hover svg,
+.customers-list-item:focus svg {
+  color: var(--webstudio-color);
+  fill: var(--webstudio-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
 
 .customers-list-item:not(:last-child) {
   margin-right: 30px;
@@ -768,30 +790,6 @@ label:focus-within svg {
 .customers-icon-6 {
   width: 94px;
   height: 44px;
-}
-
-.customers-list-item:hover,
-.customers-list-item:focus {
-  border: 1px solid var(--webstudio-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: border-color;
-}
-
-.customers-list-ite svg,
-.customers-list-item svg {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
-
-.customers-list-item:hover svg,
-.customers-list-item:focus svg {
-  color: var(--webstudio-color);
-  fill: var(--webstudio-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
 }
 
 .business-solutions {
@@ -1014,6 +1012,13 @@ label:focus-within svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: box-shadow;
 }
+.pics-item:hover, .pics-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
+}
 
 .pics-item:nth-child(3n+3) {
   margin-right: 0px;
@@ -1052,22 +1057,11 @@ label:focus-within svg {
   color: var(--contact-color);
 }
 
-.pics-item:hover,
-.pics-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: box-shadow;
-}
-
 .box {
   position: relative;
   overflow: hidden;
 }
-
-.box:hover .overlay,
-.box:focus .overlay {
+.box:hover .overlay, .box:focus .overlay {
   transform: translateY(0);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

@@ -71,6 +71,13 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
+
+    &:focus-within {
+        border-color: var(--webstudio-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: border;
+    }
 }
 
 textarea {
@@ -102,6 +109,10 @@ input {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
+
+    &:focus-within {
+        border-color: var(--webstudio-color);
+    }
 }
 
 .mw-icon {
@@ -155,22 +166,11 @@ input {
     margin-right: 14px;
 }
 
-.mw-item-box:focus-within {
-    border-color: var(--webstudio-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: border;
-}
-
 label:focus-within svg {
     fill: var(--webstudio-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
-}
-
-.mw-item-feedback:focus-within {
-    border-color: var(--webstudio-color);
 }
 
 .mw-button {

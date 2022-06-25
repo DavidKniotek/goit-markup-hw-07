@@ -1,1 +1,76 @@
-/*# sourceMappingURL=main.css.map */
+/*
+1. utils
+2. vendors
+3. base
+4. layout
+5. components
+6. pages
+7. themes
+*/
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+:root {
+  --text-color: #212121;
+  --contact-color: #757575;
+  --webstudio-color: #2196F3;
+  --background-color: #2F303A;
+  --social-media-color: #AFB1B8;
+  --loremipsum-icon-color: #F5F4FA;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  color: var(--text-color);
+}/*# sourceMappingURL=main.css.map */

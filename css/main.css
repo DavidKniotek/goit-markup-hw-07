@@ -88,11 +88,10 @@ img {
   list-style: none;
 }
 
-.address-color {
+.address--color {
   color: #FFFFFF;
 }
-
-.address-style {
+.address--style {
   font-style: normal;
 }
 
@@ -217,8 +216,7 @@ img {
 .footer {
   background: var(--background-color);
 }
-
-.footer-list {
+.footer__list {
   margin-right: 70px;
 }
 
@@ -339,7 +337,7 @@ img {
   transition-property: opacity;
 }
 
-.footer-social-media-header {
+.footer-social-media__header {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -351,21 +349,17 @@ img {
   padding-top: 12px;
   margin-bottom: 20px;
 }
-
-.footer-social-media-list {
+.footer-social-media__list {
   display: flex;
   justify-content: space-between;
 }
-
-.footer-social-media-item:not(:last-child) {
+.footer-social-media__item:not(:last-child) {
   margin-right: 10px;
 }
-
-.footer-social-media-item:last-child {
+.footer-social-media__item:last-child {
   margin-right: 78px;
 }
-
-.footer-social-media-link {
+.footer-social-media__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -378,14 +372,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
 }
-.footer-social-media-link:hover, .footer-social-media-link:focus {
+.footer-social-media__link:hover, .footer-social-media__link:focus {
   background-color: var(--webstudio-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
 }
-
-.footer-social-icon {
+.footer-social-media__icon {
   width: 20px;
   height: 20px;
 }
@@ -600,11 +593,10 @@ label:focus-within svg {
   margin-top: 30px;
 }
 
-.newsletter-label {
+.newsletter-form__label {
   position: relative;
 }
-
-.newsletter-form-email {
+.newsletter-form__email {
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -615,7 +607,7 @@ label:focus-within svg {
   background-color: var(--background-color);
   color: rgba(255, 255, 255, 0.6);
 }
-.newsletter-form-email::placeholder {
+.newsletter-form__email::placeholder {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -626,8 +618,7 @@ label:focus-within svg {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.newsletter-button {
+.newsletter-form__button {
   position: relative;
   width: 200px;
   height: 50px;
@@ -650,15 +641,14 @@ label:focus-within svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity;
 }
-.newsletter-button:hover, .newsletter-button:focus {
+.newsletter-form__button:hover, .newsletter-form__button:focus {
   opacity: 0.75;
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity;
 }
-
-.icon-send {
+.newsletter-form__icon {
   position: absolute;
   left: 148px;
   top: 13px;

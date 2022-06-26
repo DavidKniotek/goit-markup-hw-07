@@ -63,10 +63,12 @@ img {
     list-style: none;
 }
 
-.address-color {
-    color: #FFFFFF;
-}
+.address {
+    &--color {
+        color: #FFFFFF;
+    }
 
-.address-style {
-    font-style: normal;
+    &--style {
+        font-style: normal;
+    }
 }

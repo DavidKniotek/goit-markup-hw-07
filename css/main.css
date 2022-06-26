@@ -804,12 +804,6 @@ label:focus-within svg {
   height: 44px;
 }
 
-.business-solutions {
-  margin-top: 106px;
-  margin-bottom: 30px;
-  width: 696px;
-}
-
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/backgroundimg.jpg");
   background-repeat: no-repeat;
@@ -822,6 +816,12 @@ label:focus-within svg {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background;
+}
+
+.hero__header {
+  margin-top: 106px;
+  margin-bottom: 30px;
+  width: 696px;
 }
 
 .loremipsum-list {

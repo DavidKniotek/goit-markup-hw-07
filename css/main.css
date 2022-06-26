@@ -873,18 +873,15 @@ label:focus-within svg {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
 .services__list {
   display: flex;
 }
-
 .services__item {
   position: relative;
 }
 .services__item:not(:last-child) {
   margin-right: 30px;
 }
-
 .services__banner {
   position: absolute;
   width: 370px;

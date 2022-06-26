@@ -273,12 +273,11 @@ img {
   pointer-events: none;
 }
 
-.button-list {
+.button-bar__list {
   display: flex;
   margin-right: 8px;
 }
-
-.button-style {
+.button-bar--style {
   margin-right: 8px;
   height: 38px;
   background: #F5F4FA;
@@ -295,7 +294,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, filter, background-color;
 }
-.button-style:hover {
+.button-bar--style:hover {
   background-color: #2196F3;
   color: #FFFFFF;
   cursor: pointer;

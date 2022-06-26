@@ -1,24 +1,26 @@
-.button-list {
-    display: flex;
-    margin-right: 8px;
-}
+.button-bar {
 
-.button-style {
-    margin-right: 8px;
-    height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    padding: 6px 22px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color, filter, background-color;
+    &__list {
+        display: flex;
+        margin-right: 8px;
+    }
+
+    &--style {
+        margin-right: 8px;
+        height: 38px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        padding: 6px 22px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color, filter, background-color;
 
         &:hover {
             background-color: #2196F3;
@@ -29,4 +31,5 @@
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             transition-property: color, filter, background-color;
         }
+    }
 }

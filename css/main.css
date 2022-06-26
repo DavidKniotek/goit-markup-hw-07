@@ -824,15 +824,35 @@ label:focus-within svg {
   width: 696px;
 }
 
-.loremipsum-list {
+.loremipsum {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  color: var(--text-color);
+}
+
+.loremipsum__list {
   display: flex;
 }
 
-.loremipsum-item:not(:last-child) {
+.loremipsum__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.lorem-head {
+.loremipsum__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.loremipsum__icon-item {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  padding: 25px 0;
+  margin-bottom: 30px;
+  background-color: var(--loremipsum-icon-color);
+}
+
+.loremipsum__header {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -844,7 +864,7 @@ label:focus-within svg {
   margin-bottom: 10px;
 }
 
-.lorem-text {
+.loremipsum__description {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -852,20 +872,6 @@ label:focus-within svg {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--contact-color);
-}
-
-.loremipsum-icon-item {
-  display: flex;
-  justify-content: center;
-  height: 120px;
-  padding: 25px 0;
-  margin-bottom: 30px;
-  background-color: var(--loremipsum-icon-color);
-}
-
-.loremipsum-icon {
-  width: 70px;
-  height: 70px;
 }
 
 .services-list {

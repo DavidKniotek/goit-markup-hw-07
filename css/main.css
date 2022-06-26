@@ -396,23 +396,19 @@ img {
   font-size: 26px;
   line-height: 1.2;
 }
-
 .main-logo--pt1 {
   color: var(--webstudio-color);
   font-weight: 700;
   font-size: 26px;
 }
-
 .main-logo--pt2 {
   color: var(--text-color);
   font-weight: 700;
   font-size: 26px;
 }
-
 .main-logo--pt3 {
   color: #FFFFFF;
 }
-
 .main-logo--end {
   font-family: "Raleway", sans-serif;
   font-style: normal;

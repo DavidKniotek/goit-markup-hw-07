@@ -5,13 +5,18 @@
     color: var(--contact-color);
 }
 
-.contact-top {
+.contact--top {
     display: flex;
     margin-left: auto;
 
     &:not(:last-child) {
         margin-right: 46px;
     }
+}
+
+.contact--bottom {
+    display: flex;
+    color: var(--contact-color);
 }
 
 .envelope-icon {
@@ -49,9 +54,4 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color, fill;
-}
-
-.contact-bottom {
-    display: flex;
-    color: var(--contact-color);
 }

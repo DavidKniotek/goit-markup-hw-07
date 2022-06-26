@@ -76,11 +76,11 @@ img {
   color: var(--webstudio-color);
 }
 
-.link-menu {
+.link--menu {
   color: var(--text-color);
 }
 
-.link-active {
+.link--active {
   color: var(--webstudio-color);
 }
 
@@ -171,12 +171,17 @@ img {
   color: var(--contact-color);
 }
 
-.contact-top {
+.contact--top {
   display: flex;
   margin-left: auto;
 }
-.contact-top:not(:last-child) {
+.contact--top:not(:last-child) {
   margin-right: 46px;
+}
+
+.contact--bottom {
+  display: flex;
+  color: var(--contact-color);
 }
 
 .envelope-icon {
@@ -215,11 +220,6 @@ img {
   transition-property: color, fill;
 }
 
-.contact-bottom {
-  display: flex;
-  color: var(--contact-color);
-}
-
 .footer {
   background: var(--background-color);
 }
@@ -236,23 +236,23 @@ img {
   display: flex;
 }
 
-.main-navigation {
-  display: flex;
-  align-items: center;
-}
-
-.main-navigation-item {
-  position: relative;
-}
-.main-navigation-item:not(:last-child) {
-  margin-right: 46px;
-}
-
-.main-menu {
+.navigation__menu {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__item {
+  position: relative;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 46px;
 }
 
 .active::after {

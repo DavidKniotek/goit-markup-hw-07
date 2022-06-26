@@ -7,6 +7,15 @@
 6. pages
 7. themes
 */
+:root {
+  --text-color: #212121;
+  --contact-color: #757575;
+  --webstudio-color: #2196F3;
+  --background-color: #2F303A;
+  --social-media-color: #AFB1B8;
+  --loremipsum-icon-color: #F5F4FA;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -16,15 +25,6 @@
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
-
-:root {
-  --text-color: #212121;
-  --contact-color: #757575;
-  --webstudio-color: #2196F3;
-  --background-color: #2F303A;
-  --social-media-color: #AFB1B8;
-  --loremipsum-icon-color: #F5F4FA;
 }
 
 body {
@@ -406,23 +406,23 @@ img {
   line-height: 1.2;
 }
 
-.main-logo-pt1 {
+.main-logo--pt1 {
   color: var(--webstudio-color);
   font-weight: 700;
   font-size: 26px;
 }
 
-.main-logo-pt2 {
+.main-logo--pt2 {
   color: var(--text-color);
   font-weight: 700;
   font-size: 26px;
 }
 
-.main-logo-pt3 {
+.main-logo--pt3 {
   color: #FFFFFF;
 }
 
-.main-logo-end {
+.main-logo--end {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;

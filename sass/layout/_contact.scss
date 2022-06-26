@@ -3,54 +3,60 @@
     justify-content: center;
     align-items: center;
     color: var(--contact-color);
-}
-
-.contact--top {
+    
+    &--top {
     display: flex;
     margin-left: auto;
 
-    &:not(:last-child) {
-        margin-right: 46px;
+        &:not(:last-child) {
+            margin-right: 46px;
+        }
+    }
+
+    &--bottom {
+        display: flex;
+        color: var(--contact-color);
     }
 }
 
-.contact--bottom {
-    display: flex;
-    color: var(--contact-color);
+.envelope {
+
+    &__icon {
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color, fill;
+    }
+
+    &:hover svg,
+    &:focus svg {
+        color: var(--webstudio-color);
+        fill: var(--webstudio-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color, fill;
+    }
 }
 
-.envelope:hover svg,
-.envelope:focus svg {
-    color: var(--webstudio-color);
-    fill: var(--webstudio-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color, fill;
-}
+.phone {
 
-.phone:hover svg,
-.phone:focus svg {
-    color: var(--webstudio-color);
-    fill: var(--webstudio-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color, fill;
-}
+    &__icon {
+        width: 10px;
+        height: 16px;
+        margin-right: 10px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color, fill;
+    }
 
-.envelope__icon {
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color, fill;
-}
-
-.phone__icon {
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color, fill;
+    &:hover svg,
+    &:focus svg {
+        color: var(--webstudio-color);
+        fill: var(--webstudio-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color, fill;
+    }
 }

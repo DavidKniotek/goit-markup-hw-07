@@ -1,8 +1,4 @@
-.services-list {
-    display: flex;
-}
-
-.services-head {
+.services__header {
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
@@ -15,7 +11,11 @@
     letter-spacing: 0.03em;
 }
 
-.service-item {
+.services__list {
+    display: flex;
+}
+
+.services__item {
     position: relative;
 
     &:not(:last-child) {
@@ -23,8 +23,7 @@
     }
 }
 
-
-.services-banner {
+.services__banner {
     position: absolute;
     width: 370px;
     height: 70px;

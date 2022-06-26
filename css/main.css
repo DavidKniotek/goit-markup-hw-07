@@ -726,11 +726,9 @@ label:focus-within svg {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
 .customers__list {
   display: flex;
 }
-
 .customers__item {
   display: flex;
   align-items: center;
@@ -752,53 +750,42 @@ label:focus-within svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color;
 }
-
-.customers__item svg,
-.customers__item svg {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
-
-.customers__item:hover svg,
-.customers__item:focus svg {
+.customers__item:hover svg, .customers__item:focus svg {
   color: var(--webstudio-color);
   fill: var(--webstudio-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, fill;
 }
-
+.customers__item svg {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
 .customers__link {
   display: flex;
   fill: var(--social-media-color);
 }
-
 .customers__icon-1 {
   width: 41px;
   height: 47px;
 }
-
 .customers__icon-2 {
   width: 40px;
   height: 52px;
 }
-
 .customers__icon-3 {
   width: 43px;
   height: 41px;
 }
-
 .customers__icon-4 {
   width: 84px;
   height: 41px;
 }
-
 .customers__icon-5 {
   width: 63px;
   height: 45px;
 }
-
 .customers__icon-6 {
   width: 94px;
   height: 44px;

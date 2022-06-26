@@ -1,24 +1,24 @@
 .navigation {
     display: flex;
-}
 
-.navigation__menu {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-}
+    &__menu {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+    }
 
-.navigation__list {
-    display: flex;
-    align-items: center;
-}
+    &__list {
+        display: flex;
+        align-items: center;
+    }
 
-.navigation__item {
-    position: relative;
+    &__item {
+        position: relative;
 
-    &:not(:last-child) {
-        margin-right: 46px;
+        &:not(:last-child) {
+            margin-right: 46px;
+        }
     }
 }
 

@@ -229,19 +229,16 @@ img {
 .navigation {
   display: flex;
 }
-
 .navigation__menu {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
-
 .navigation__list {
   display: flex;
   align-items: center;
 }
-
 .navigation__item {
   position: relative;
 }

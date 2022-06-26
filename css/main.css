@@ -690,7 +690,7 @@ label:focus-within svg {
   padding-bottom: 30px;
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -703,7 +703,7 @@ label:focus-within svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill, background-color;
 }
-.social-list-link:hover, .social-list-link:focus {
+.social-list__link:hover, .social-list__link:focus {
   fill: #FFFFFF;
   background-color: var(--webstudio-color);
   transition-duration: 250ms;
@@ -711,7 +711,7 @@ label:focus-within svg {
   transition-property: fill, background-color;
 }
 
-.social-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
 }
@@ -919,11 +919,11 @@ label:focus-within svg {
   color: #FFFFFF;
 }
 
-.team-header {
-  margin-bottom: 50px;
+.team {
+  background: #F5F4FA;
 }
 
-.team-header {
+.team__header {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -931,26 +931,33 @@ label:focus-within svg {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
-.team-list {
+.team__list {
   display: flex;
 }
 
-.team-list-item {
+.team__item {
   text-align: center;
 }
-.team-list-item:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-member-photo {
+.team__description-field {
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__member-photo {
   width: 270px;
   height: 260px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team-member-name {
+.team__member-name {
   padding-top: 30px;
   font-family: "Roboto";
   font-style: normal;
@@ -961,7 +968,7 @@ label:focus-within svg {
   letter-spacing: 0.03em;
 }
 
-.team-member-job {
+.team__member-job {
   margin-top: 10px;
   margin-bottom: 16px;
   font-family: "Roboto";
@@ -972,16 +979,6 @@ label:focus-within svg {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--contact-color);
-}
-
-.second-color {
-  background-color: white;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team-section {
-  background: #F5F4FA;
 }
 
 .pics {

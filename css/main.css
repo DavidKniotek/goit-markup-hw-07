@@ -716,7 +716,7 @@ label:focus-within svg {
   height: 20px;
 }
 
-.customers-header {
+.customers__header {
   margin-bottom: 50px;
   font-family: "Roboto";
   font-style: normal;
@@ -727,11 +727,11 @@ label:focus-within svg {
   letter-spacing: 0.03em;
 }
 
-.customers-list {
+.customers__list {
   display: flex;
 }
 
-.customers-list-item {
+.customers__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -743,25 +743,25 @@ label:focus-within svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color;
 }
-.customers-list-item:not(:last-child) {
+.customers__item:not(:last-child) {
   margin-right: 30px;
 }
-.customers-list-item:hover, .customers-list-item:focus {
+.customers__item:hover, .customers__item:focus {
   border: 1px solid var(--webstudio-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color;
 }
 
-.customers-list-item svg,
-.customers-list-item svg {
+.customers__item svg,
+.customers__item svg {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, fill;
 }
 
-.customers-list-item:hover svg,
-.customers-list-item:focus svg {
+.customers__item:hover svg,
+.customers__item:focus svg {
   color: var(--webstudio-color);
   fill: var(--webstudio-color);
   transition-duration: 250ms;
@@ -769,37 +769,37 @@ label:focus-within svg {
   transition-property: color, fill;
 }
 
-.customers-list-link {
+.customers__link {
   display: flex;
   fill: var(--social-media-color);
 }
 
-.customers-icon-1 {
+.customers__icon-1 {
   width: 41px;
   height: 47px;
 }
 
-.customers-icon-2 {
+.customers__icon-2 {
   width: 40px;
   height: 52px;
 }
 
-.customers-icon-3 {
+.customers__icon-3 {
   width: 43px;
   height: 41px;
 }
 
-.customers-icon-4 {
+.customers__icon-4 {
   width: 84px;
   height: 41px;
 }
 
-.customers-icon-5 {
+.customers__icon-5 {
   width: 63px;
   height: 45px;
 }
 
-.customers-icon-6 {
+.customers__icon-6 {
   width: 94px;
   height: 44px;
 }

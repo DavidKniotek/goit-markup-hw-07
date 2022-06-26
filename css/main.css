@@ -184,7 +184,25 @@ img {
   color: var(--contact-color);
 }
 
-.envelope-icon {
+.envelope:hover svg,
+.envelope:focus svg {
+  color: var(--webstudio-color);
+  fill: var(--webstudio-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+
+.phone:hover svg,
+.phone:focus svg {
+  color: var(--webstudio-color);
+  fill: var(--webstudio-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+
+.envelope__icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -193,28 +211,10 @@ img {
   transition-property: color, fill;
 }
 
-.phone-icon {
+.phone__icon {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
-
-.envelope-hover:hover svg,
-.envelope-hover:focus svg {
-  color: var(--webstudio-color);
-  fill: var(--webstudio-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
-
-.phone-hover:hover svg,
-.phone-hover:focus svg {
-  color: var(--webstudio-color);
-  fill: var(--webstudio-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, fill;

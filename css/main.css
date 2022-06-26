@@ -811,25 +811,16 @@ label:focus-within svg {
   width: 696px;
 }
 
-.loremipsum {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  color: var(--text-color);
-}
-
 .loremipsum__list {
   display: flex;
 }
-
 .loremipsum__item:not(:last-child) {
   margin-right: 30px;
 }
-
 .loremipsum__icon {
   width: 70px;
   height: 70px;
 }
-
 .loremipsum__icon-item {
   display: flex;
   justify-content: center;
@@ -838,7 +829,6 @@ label:focus-within svg {
   margin-bottom: 30px;
   background-color: var(--loremipsum-icon-color);
 }
-
 .loremipsum__header {
   font-family: "Roboto";
   font-style: normal;
@@ -850,7 +840,6 @@ label:focus-within svg {
   color: var(--text-color);
   margin-bottom: 10px;
 }
-
 .loremipsum__description {
   font-family: "Roboto";
   font-style: normal;

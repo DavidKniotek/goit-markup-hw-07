@@ -147,6 +147,11 @@ img {
   padding-bottom: 94px;
   color: var(--text-color);
 }
+.section--without-padding-top {
+  padding-top: 0;
+  padding-bottom: 94px;
+  color: var(--text-color);
+}
 
 .contact {
   display: flex;

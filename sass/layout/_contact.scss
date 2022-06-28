@@ -1,12 +1,12 @@
 .contact {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--contact-color);
+    margin-left: auto;
     
     &__top {
-    display: flex;
-    margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--contact-color);
 
         &:not(:last-child) {
             margin-right: 46px;
@@ -17,46 +17,38 @@
         display: flex;
         color: var(--contact-color);
     }
-}
-
-.envelope {
 
     &__icon {
-        width: 16px;
-        height: 12px;
-        margin-right: 10px;
+        margin-right: 30px;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: color, fill;
-    }
 
-    &:hover svg,
-    &:focus svg {
-        color: var(--webstudio-color);
-        fill: var(--webstudio-color);
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: color, fill;
-    }
-}
+        &--envelope {
+            width: 16px;
+            height: 12px;
+            margin-right: 10px;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+        }
 
-.phone {
+        &--phone {
+            width: 10px;
+            height: 16px;
+            margin-right: 10px;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+        }
 
-    &__icon {
-        width: 10px;
-        height: 16px;
-        margin-right: 10px;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: color, fill;
-    }
-
-    &:hover svg,
-    &:focus svg {
-        color: var(--webstudio-color);
-        fill: var(--webstudio-color);
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: color, fill;
+        &:hover svg,
+        &:focus svg {
+            color: var(--webstudio-color);
+            fill: var(--webstudio-color);
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+        }
     }
 }

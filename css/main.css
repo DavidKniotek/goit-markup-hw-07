@@ -150,13 +150,13 @@ img {
 
 .contact {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--contact-color);
+  margin-left: auto;
 }
 .contact__top {
   display: flex;
-  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  color: var(--contact-color);
 }
 .contact__top:not(:last-child) {
   margin-right: 46px;
@@ -165,8 +165,13 @@ img {
   display: flex;
   color: var(--contact-color);
 }
-
-.envelope__icon {
+.contact__icon {
+  margin-right: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+.contact__icon--envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -174,15 +179,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, fill;
 }
-.envelope:hover svg, .envelope:focus svg {
-  color: var(--webstudio-color);
-  fill: var(--webstudio-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
-
-.phone__icon {
+.contact__icon--phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -190,7 +187,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, fill;
 }
-.phone:hover svg, .phone:focus svg {
+.contact__icon:hover svg, .contact__icon:focus svg {
   color: var(--webstudio-color);
   fill: var(--webstudio-color);
   transition-duration: 250ms;

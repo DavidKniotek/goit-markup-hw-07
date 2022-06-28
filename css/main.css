@@ -40,6 +40,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 p {
@@ -64,21 +65,14 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 }
-
 .link::selection {
   color: var(--webstudio-color);
 }
-
 .link--menu {
   color: var(--text-color);
 }
-
 .link--active {
   color: var(--webstudio-color);
-}
-
-.list {
-  list-style: none;
 }
 
 .address--color {

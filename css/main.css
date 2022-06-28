@@ -156,14 +156,14 @@ img {
   align-items: center;
   color: var(--contact-color);
 }
-.contact--top {
+.contact__top {
   display: flex;
   margin-left: auto;
 }
-.contact--top:not(:last-child) {
+.contact__top:not(:last-child) {
   margin-right: 46px;
 }
-.contact--bottom {
+.contact__bottom {
   display: flex;
   color: var(--contact-color);
 }
@@ -205,6 +205,10 @@ img {
 }
 .footer__list {
   margin-right: 70px;
+}
+.footer__contact {
+  display: flex;
+  color: var(--contact-color);
 }
 
 .header-border {

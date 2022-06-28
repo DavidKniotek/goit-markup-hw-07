@@ -4,4 +4,9 @@
     &__list {
     margin-right: 70px;
     }
+
+    &__contact {
+    display: flex;
+        color: var(--contact-color);
+    }
 }

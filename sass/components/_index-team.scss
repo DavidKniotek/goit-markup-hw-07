@@ -1,17 +1,6 @@
 .team {
     background: #F5F4FA;
 
-    &__header {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.2;
-        text-align: center;
-        letter-spacing: 0.03em;
-        margin-bottom: 50px;
-    }
-
     &__list {
         display: flex;
     }

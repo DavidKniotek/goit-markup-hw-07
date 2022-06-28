@@ -36,46 +36,67 @@
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             transition-property: color, fill;
         }
-        
+
+    }
+    
+    &__link {
+        display: flex;
+        fill: var(--social-media-color);
+    }
+
+    &__icon {
+        &--1 {
+            width: 41px;
+            height: 47px;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+        }
+
+        &--2 {
+            width: 40px;
+            height: 52px;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+        }
+
+        &--3 {
+            width: 43px;
+            height: 41px;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+        }
+
+        &--4 {
+            width: 84px;
+            height: 41px;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+        }
+
+        &--5 {
+            width: 63px;
+            height: 45px;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+        }
+
+        &--6 {
+            width: 94px;
+            height: 44px;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+        }
+
         svg {
             transition-duration: 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             transition-property: color, fill;
         }
-    }
-    
-    &__link {
-    display: flex;
-    fill: var(--social-media-color);
-    }
-
-    &__icon-1 {
-    width: 41px;
-    height: 47px;
-    }
-    
-    &__icon-2 {
-    width: 40px;
-    height: 52px;
-    }
-
-    &__icon-3 {
-    width: 43px;
-    height: 41px;
-    }
-
-    &__icon-4 {
-    width: 84px;
-    height: 41px;
-    }
-
-    &__icon-5 {
-    width: 63px;
-    height: 45px;
-    }
-
-    &__icon-6 {
-    width: 94px;
-    height: 44px;
     }
 }

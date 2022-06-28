@@ -609,15 +609,15 @@ img {
   font-weight: 700;
   font-size: 26px;
 }
-.main-logo__header-color {
+.main-logo__up-color {
   color: var(--text-color);
   font-weight: 700;
   font-size: 26px;
 }
-.main-logo__footer-color {
+.main-logo__down-color {
   color: #FFFFFF;
 }
-.main-logo__footer {
+.main-logo__in-footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -909,7 +909,7 @@ input {
   border: 1px solid #ECECEC;
   border-top: none;
 }
-.pics__h2 {
+.pics__description-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -919,7 +919,7 @@ input {
   padding-top: 20px;
   padding-left: 24px;
 }
-.pics__p {
+.pics__description-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -975,7 +975,6 @@ input {
   margin-left: 32px;
   padding-bottom: 30px;
 }
-
 .social-list__link {
   display: flex;
   width: 44px;
@@ -996,7 +995,6 @@ input {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill, background-color;
 }
-
 .social-list__icon {
   width: 20px;
   height: 20px;

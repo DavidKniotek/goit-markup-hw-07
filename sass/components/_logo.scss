@@ -4,23 +4,23 @@
     font-size: 26px;
     line-height: 1.2;
 
-    &--pt1 {
+    &__main-color {
         color: var(--webstudio-color);
         font-weight: 700;
         font-size: 26px;
     }
 
-    &--pt2 {
+    &__header-color {
         color: var(--text-color);
         font-weight: 700;
         font-size: 26px;
     }
 
-    &--pt3 {
+    &__footer-color {
         color: #FFFFFF;
     }
 
-    &--end {
+    &__footer {
         font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 700;

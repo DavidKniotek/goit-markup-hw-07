@@ -605,20 +605,20 @@ img {
   font-size: 26px;
   line-height: 1.2;
 }
-.main-logo--pt1 {
+.main-logo__main-color {
   color: var(--webstudio-color);
   font-weight: 700;
   font-size: 26px;
 }
-.main-logo--pt2 {
+.main-logo__header-color {
   color: var(--text-color);
   font-weight: 700;
   font-size: 26px;
 }
-.main-logo--pt3 {
+.main-logo__footer-color {
   color: #FFFFFF;
 }
-.main-logo--end {
+.main-logo__footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;

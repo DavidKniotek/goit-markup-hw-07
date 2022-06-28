@@ -36,6 +36,7 @@ img {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
+    color: var(--text-color);
 
     &:hover,
     &:focus {
@@ -48,10 +49,6 @@ img {
 
     &::selection {
         color: var(--webstudio-color);
-    }
-
-    &--menu {
-        color: var(--text-color);
     }
 
     &--active {

@@ -2,7 +2,7 @@
 1. utils
 2. vendors
 3. base
-4. layout
+4. components
 5. components
 6. pages
 7. themes
@@ -158,97 +158,6 @@ img {
   color: var(--text-color);
 }
 
-.contact {
-  display: flex;
-  margin-left: auto;
-}
-.contact__top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--contact-color);
-}
-.contact__top:not(:last-child) {
-  margin-right: 46px;
-}
-.contact__bottom {
-  display: flex;
-  color: var(--contact-color);
-}
-.contact__icon {
-  margin-right: 30px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
-.contact__icon--envelope {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
-.contact__icon--phone {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
-.contact__icon:hover svg, .contact__icon:focus svg {
-  color: var(--webstudio-color);
-  fill: var(--webstudio-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
-
-.footer {
-  background: var(--background-color);
-}
-.footer__list {
-  margin-right: 70px;
-}
-.footer__contact {
-  display: flex;
-  color: var(--contact-color);
-}
-
-.header-border {
-  border: 1px solid #ECECEC;
-}
-
-.navigation {
-  display: flex;
-}
-.navigation__list {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-}
-.navigation__item {
-  position: relative;
-}
-.navigation__item:not(:last-child) {
-  margin-right: 46px;
-}
-
-.active-page::after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--webstudio-color);
-  border-radius: 2px;
-  bottom: -32px;
-}
-
 .backdrop {
   position: fixed;
   left: 0;
@@ -336,6 +245,53 @@ img {
   transition-property: color, filter, background-color;
 }
 
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+.contact__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--contact-color);
+}
+.contact__top:not(:last-child) {
+  margin-right: 46px;
+}
+.contact__bottom {
+  display: flex;
+  color: var(--contact-color);
+}
+.contact__icon {
+  margin-right: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+.contact__icon--envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+.contact__icon--phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+.contact__icon:hover svg, .contact__icon:focus svg {
+  color: var(--webstudio-color);
+  fill: var(--webstudio-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+
 .footer-social-media__header {
   font-family: "Roboto";
   font-style: normal;
@@ -380,6 +336,17 @@ img {
 .footer-social-media__icon {
   width: 20px;
   height: 20px;
+}
+
+.footer {
+  background: var(--background-color);
+}
+.footer__list {
+  margin-right: 70px;
+}
+.footer__contact {
+  display: flex;
+  color: var(--contact-color);
 }
 
 .customers__list {
@@ -799,6 +766,35 @@ input {
   outline: none;
 }
 
+.navigation {
+  display: flex;
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.navigation__item {
+  position: relative;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.active-page::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--webstudio-color);
+  border-radius: 2px;
+  bottom: -32px;
+}
+
 .newsletter-form__label {
   position: relative;
 }
@@ -965,6 +961,10 @@ input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: top, left, width, height, background-color, transform;
+}
+
+.header-border {
+  border: 1px solid #ECECEC;
 }
 
 .social-list {

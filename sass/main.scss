@@ -2,7 +2,7 @@
 1. utils
 2. vendors
 3. base
-4. layout
+4. components
 5. components
 6. pages
 7. themes
@@ -14,14 +14,11 @@
 @import "./base/container";
 @import "./base/section";
 
-@import "./layout/contact";
-@import "./layout/footer";
-@import "./layout/header";
-@import "./layout/navigation";
-
 @import "./components/backdrop";
 @import "./components/button";
+@import "./components/contact";
 @import "./components/footer-social-media";
+@import "./components/footer";
 @import "./components/index-customers";
 @import "./components/index-hero";
 @import "./components/index-loremipsum";
@@ -29,6 +26,8 @@
 @import "./components/index-team";
 @import "./components/logo";
 @import "./components/modal-window";
+@import "./components/navigation";
 @import "./components/newsletter";
 @import "./components/portfolio-pic-box";
+@import "./components/portfolio-header-border";
 @import "./components/social-list";

@@ -1,13 +1,4 @@
-.modal-form {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 10px;
-}
-
-.mw {
+.modal-window {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,6 +8,15 @@
     background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+
+    &__form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 10px;
+    }
 
     &__header {
         font-family: 'Roboto';

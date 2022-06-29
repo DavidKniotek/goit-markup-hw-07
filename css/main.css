@@ -218,16 +218,15 @@ img {
   display: flex;
   margin-right: 8px;
 }
-.button__portfolio-item {
+.button--button-portfolio {
+  display: inline;
   margin-right: 8px;
+  max-width: 121px;
   height: 38px;
   background: #F5F4FA;
-  border-radius: 4px;
-  border: none;
-  font-family: "Roboto";
-  font-style: normal;
+  color: var(--text-color);
   font-weight: 500;
-  font-size: 16px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px;
@@ -235,7 +234,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, filter, background-color;
 }
-.button__portfolio-item:hover, .button__portfolio-item:focus {
+.button--button-portfolio:hover, .button--button-portfolio:focus {
   background-color: #2196F3;
   color: #FFFFFF;
   cursor: pointer;

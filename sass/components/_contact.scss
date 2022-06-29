@@ -18,8 +18,23 @@
         color: var(--contact-color);
     }
 
-    &__icon {
+    &__item {
         margin-right: 30px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color, fill;
+
+        &:hover svg,
+        &:focus svg {
+            color: var(--webstudio-color);
+            fill: var(--webstudio-color);
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color, fill;
+            }
+    }
+
+    &__icon {
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: color, fill;

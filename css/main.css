@@ -262,8 +262,20 @@ img {
   display: flex;
   color: var(--contact-color);
 }
-.contact__icon {
+.contact__item {
   margin-right: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+.contact__item:hover svg, .contact__item:focus svg {
+  color: var(--webstudio-color);
+  fill: var(--webstudio-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+.contact__icon {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, fill;

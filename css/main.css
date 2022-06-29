@@ -304,52 +304,6 @@ img {
   transition-property: color, fill;
 }
 
-.footer-social-media__header {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #fff;
-  padding-top: 12px;
-  margin-bottom: 20px;
-}
-.footer-social-media__list {
-  display: flex;
-  justify-content: space-between;
-}
-.footer-social-media__item:not(:last-child) {
-  margin-right: 10px;
-}
-.footer-social-media__item:last-child {
-  margin-right: 78px;
-}
-.footer-social-media__link {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  fill: #fff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
-}
-.footer-social-media__link:hover, .footer-social-media__link:focus {
-  background-color: var(--webstudio-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
-}
-.footer-social-media__icon {
-  width: 20px;
-  height: 20px;
-}
-
 .footer {
   background: var(--background-color);
 }
@@ -1010,4 +964,51 @@ input {
 .social-list__icon {
   width: 20px;
   height: 20px;
+}
+.social-list__footer-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+.social-list__footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+.social-list__footer-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-list__footer-item:last-child {
+  margin-right: 78px;
+}
+.social-list__footer-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+.social-list__footer-link:hover, .social-list__footer-link:focus {
+  background-color: var(--webstudio-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+.social-list--in-footer {
+  display: inline;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-bottom: 0px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,15 +1,12 @@
 .button {
     display: flex;
     align-items: center;
-    align-self: center;
     justify-content: center;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     background: #2196F3;
     color: #FFFFFF;
-    font-family: 'Roboto';
+    height: 50px;
+    width: 200px;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -17,10 +14,11 @@
     letter-spacing: 0.06em;
     border-radius: 4px;
     border: none;
-    box-shadow: #2F303A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: opacity;
+    position: relative;
 
     &:hover,
     &:focus {
@@ -44,21 +42,13 @@
         margin-right: 8px;
     }
         
-    &--button-portfolio {
-        display: inline;
-        margin-right: 8px;
-        max-width: 121px;
+    &--filters {
         height: 38px;
-        background: #F5F4FA;
-        color: var(--text-color);
-        font-weight: 500;
-        line-height: 1.6;
-        text-align: center;
-        letter-spacing: 0.03em;
+        width: auto;
         padding: 6px 22px;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: color, filter, background-color;
+        background: #F5F4FA;
+        color: #212121;
+        box-shadow: none;
     
         &:hover,
         &:focus {
@@ -71,4 +61,12 @@
             transition-property: color, filter, background-color;
             }
         }
+    &--newsletter {
+        display: inline;
+        padding-right: 34px;
+    }
+    
+    &--modal-window {
+        align-self: center;
+    }
 }

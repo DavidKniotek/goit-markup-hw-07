@@ -223,6 +223,7 @@ img {
   background: #F5F4FA;
   color: #212121;
   box-shadow: none;
+  margin-right: 8px;
 }
 .button--filters:hover, .button--filters:focus {
   background-color: #2196F3;
